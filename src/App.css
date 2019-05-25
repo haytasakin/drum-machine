@@ -1,0 +1,25 @@
+#display {
+  color: rgb(143, 11, 11);
+  height: 25vh;
+  display: -webkit-flex;
+  justify-content: center;
+  font-size: 75px;
+  background: rgb(148, 142, 60);
+}
+
+#drum-pads {
+  background: rgb(30, 100, 57);
+  display: -webkit-flex;
+}
+
+.drum-pad {
+  justify-content: center;
+  background-color: rgb(129, 43, 43);
+  font-size: 30px;
+  align-items: center;
+  display: inline-flex;
+  box-sizing: border-box;
+  border: 3px solid black;
+  width: 33%;
+  height: 25vh;
+}
